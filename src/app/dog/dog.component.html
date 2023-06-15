@@ -1,0 +1,5 @@
+<button (click)="getRandomDog()">Get Random Dog Image</button>
+
+<div *ngIf="randomDogImage">
+  <img [src]="randomDogImage.message" alt="Random Dog" />
+</div>
